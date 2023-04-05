@@ -1,0 +1,10 @@
+
+version: '3.8'
+
+services:
+
+  network-tools:
+    image: wbitt/network-multitool
+    deploy:
+      mode: replicated
+      replicas: 1
